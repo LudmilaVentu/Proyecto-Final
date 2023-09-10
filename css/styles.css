@@ -30,6 +30,7 @@ header .navbar ul li a {
   text-decoration: none;
   color: #333;
   font-weight: bold;
+  transition: 0.5s ease-in-out;
 }
 header .navbar ul li a:hover {
   color: #007bff;
