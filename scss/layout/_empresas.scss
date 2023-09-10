@@ -1,0 +1,50 @@
+@import "../utilities/variables";
+.seccion_empresas 
+{
+    border-bottom: #333 solid 2px;
+
+    h1{
+    align-items: center;
+    margin: 15px;
+    padding: 40px;
+    font-size: 70px;
+    background-image: url(../imagenes/Fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+    h2 {
+    font-style: italic;
+    margin: 50px;
+  
+  }
+  
+ h3{
+  align-items: center;
+  padding: 10px;
+  
+  }
+}
+  
+ .confiaron h5{
+  justify-content: center;
+  display: flex;
+  padding: 10px;
+  font-size: 35px;
+  }
+  
+  .card-group{
+    display: flex;
+    height: 190px;
+    width: 300px;
+   h5{
+    
+        font-size: 15px;
+      }
+      
+}
+  
+  .card{
+    justify-content: space-around;
+  }
+  

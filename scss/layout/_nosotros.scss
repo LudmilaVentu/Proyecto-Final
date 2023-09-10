@@ -1,0 +1,62 @@
+@import "../utilities/variables";
+
+.nosotros{
+    border-bottom: 1PX solid gray;
+    background-image: url(../imagenes/together.jpg);
+    background-size:cover;
+    background-position: center center;
+    height: 250px;
+    padding: 10px;
+
+       h1{
+        font-size: 5rem;
+        color:#2F4550;
+        }
+      
+    }
+    
+    
+.pregunta-nosotros{
+      margin: 10px;
+      padding: 10px;
+      font-weight: bolder;
+      font-size: 40px;
+      text-align: center;
+    }
+    
+.contenedor{
+      margin: 50px;
+      padding: 10px;
+      align-items: center;
+    
+ p{
+      align-items: center;
+      margin: 20px;
+      padding: 10px;
+    font-size: 20px;
+    }
+}
+    
+ .lista-ordenada {
+      padding-left: 30px;
+      list-style: none;
+      margin: 10px;
+      li {
+        padding: 30px;
+        font-size: 20px;
+        font-weight: bold;
+        font-style: oblique;
+    &::before {
+        content: "";
+        display: inline-block;
+        width: 20px; /* Ancho de la imagen */
+        height: 20px; /* Altura de la imagen */
+        background-image: url(../imagenes/diamond.png); /* Ajusta la ruta de la imagen */
+        background-size: cover; /* Opcional: ajusta el tamaño del icono */
+        margin-right: 15px; /* Espacio entre el icono y el texto del elemento */
+      }
+    }
+}
+    
+    
+    

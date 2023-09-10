@@ -1,0 +1,42 @@
+@import "../utilities/variables";
+header {
+    background-color: $backgroundcolor;
+    padding: 1px;
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1PX solid gray;
+
+    img {
+        width: 100px;
+    }
+
+    .navbar {
+        display: flex;
+        margin: 1px;
+
+        ul {
+            list-style: none;
+            display: flex;
+            padding: 5px;
+            justify-content: space-between;
+
+            li {
+                padding: 5px;
+                a {
+                    text-decoration: none;
+                    color: #333;
+                    font-weight: bold;
+
+                    &:hover {
+                        color: #007bff;
+                        margin: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

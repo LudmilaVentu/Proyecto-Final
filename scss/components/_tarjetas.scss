@@ -1,0 +1,33 @@
+// MIXIN
+
+@mixin mixin-a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+
+@mixin mixin-cursos-tarjetas {
+    font-size: 35px;
+    align-items: center;
+    background-color: $backgroundcolor;
+    text-decoration: solid;
+}
+
+
+.Inicial h3 {
+    @include mixin-cursos-tarjetas()
+}
+
+.Intermedio h3 {
+    @include mixin-cursos-tarjetas()
+}
+
+.Avanzado h3 {
+    @include mixin-cursos-tarjetas()
+}
+
+
+.Macros h3 {
+    @include mixin-cursos-tarjetas()
+}
