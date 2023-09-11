@@ -1,35 +1,43 @@
 @import "../utilities/variables";
 /* CURSOS */
-// Lo empece a poner aca, pero despues lo reemplace por un mixin y include en el _tarjetas
 
-// .Inicial h3{
-  //   font-size: 35px;
-  //   background-color:$backgroundcolor;
-  // text-decoration: solid; 
-  // padding: 10px;
-  // align-items: center;
-  // } 
-  
-  // .Intermedio h3{
-  //   font-size: 35px;
-  //   align-items: center;
-  //   background-color:$backgroundcolor;
-  //   text-decoration: solid;
-  //   padding: 10px; 
-  // } 
-  
-  
-  // .Avanzado h3{
-  //   font-size: 35px;
-  //   align-items: center;
-  //   background-color:$backgroundcolor;
-  //     text-decoration: solid;
-  //   } 
-    
-  // .Macros h3{
-  //   font-size: 35px;
-  //   align-items: center;
-  //   background-color:$backgroundcolor;
-  //     text-decoration: solid;
-  //   } 
-  
+.IntroCursos {
+  background-image: url(../imagenes/Fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 50px;
+  padding: 5px;
+  border-bottom: 1px solid black;
+  h1 {
+    text-decoration: solid;
+    padding: 5px;
+    align-items: center;
+
+    color: #2F4550;
+    align-items: center;
+    margin: 50px;
+    font-size: 70px;
+
+  }}
+
+  .CopeteCursos{
+
+  h2{
+    text-decoration: solid;
+    color: #2F4550;
+    margin: 50px;
+    font-size: 40px;
+
+  }
+
+  h3{
+    text-decoration: solid;
+    border-bottom: 1px solid black;
+    color: #2F4550;
+    margin: 15px;
+    padding: 30px;
+    font-size: 40px;
+
+  }
+
+}
