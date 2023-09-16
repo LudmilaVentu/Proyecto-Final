@@ -1,13 +1,36 @@
-<!-- BOOTSTRAP -->
+<!-- agregue meta y main. Revisar los ALT de las imagenes. Buscar imagenes en svg -->
+
 
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Luve</title>
-    <link rel="icon" href="imagenes/logo.PNG">
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">   
+    <!-- ETIQUETA DESCRIPTION 70 a 320 caracteres-->
+    <meta name="description"
+        content="LuVe | Cursos Excel online personalizados | Aprende Excel desde cero o mejora tus habilidades con cursos adaptados a tu nivel.">
+    <!-- meta keywords 5 o 10 keyword-->
+    <meta name="keywords"
+        content="Excel, cursos, online, personalizados, Cursos Excel, Aprende Excel, Excel online, Excel personalizado, Excel para principiantes, Excel para intermedios, Excel para avanzados, Excel para negocios, Excel para finanzas">
+
+    <!-- meta phone -->
+    <meta name="telephone" content="+541161868796">
+    <meta name="Whatsapp" content="+541161868796">
+    <!-- AUTOR -->
+    <meta name="author" content="Ludmila Venturino">
+    <!-- meta Geo -->
+    <meta name="geo.placename" content="Buenos Aires">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="imagenes/logo.PNG" type="image/x-icon">
+    <!-- <link rel="icon" href="imagenes/logo.PNG"> -->
+
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
@@ -17,7 +40,7 @@
     <!-- HEADER -->
 
     <header>
-       
+
         <div class="logo">
             <a href="index.html">
                 <img src="imagenes/logo.PNG" alt="Logo del sitio">
@@ -38,86 +61,89 @@
 
     </header>
 
+    <main>
+        <section class="consultoria">
 
-    <section class="consultoria">
+            <h1>Consultoría | Formación</h1>
+            <h2>EmPowering people to Data</h2>
 
-        <h1>Consultoría | Formación</h1>
-        <h2>EmPowering people to Data</h2>
+        </section>
 
-    </section>
+        <section class="contenedores-contenido">
+            <div class="tarjetas">
 
-    <section class="contenedores-contenido">
-        <div class="tarjetas">
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col align-self-start">
+                            <div class="empresas">
+                                <a href="html/empresas.html">
+                                    <h3>Cursos Personalizados</h3>
+                                    <img src="imagenes/busines.jpg" alt="Empresas">
+                                    <p>Mediante nuestros planes formativos adaptados a tu equipo, transferimos nuestro
+                                        know-how para que
+                                        el usuario final pueda ser autónomo </p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col align-self-center">
+                            <div class="cursos">
+                                <a href="html/cursos.html">
+                                    <h3>4 Niveles de Excel</h3>
+                                    <img src="imagenes/cowork.jpg" alt="Cursos Personalizados">
+                                    <p>Sientase a gusto en alguno de los 4 niveles de Excel que ofrecemos. Siga
+                                        creciendo
+                                        profesionalmente en la herramienta más utilizada </p>
+                                </a>
+                            </div>
+                        </div>
 
-        <div class="container text-center">
-            <div class="row">
-              <div class="col align-self-start">
-                <div class="empresas">
-                    <a href="html/empresas.html">
-                        <h3>Cursos Personalizados</h3>
-                        <img src="imagenes/busines.jpg" alt="Empresas">
-                        <p>Mediante nuestros planes formativos adaptados a tu equipo, transferimos nuestro know-how para que
-                            el usuario final pueda ser autónomo </p>
+                    </div>
+                </div>
+
+
+
+                <div class="nosotrosIndex">
+                    <a href="html/nosotros.html">
+                        <h3>Nosotros</h3>
+                        <img src="imagenes/Nosotros.jpg" alt="Nosotros">
+                        <p>Somos consultores especializados en Microsoft Excel </p>
+                        <p>Nuestra propuesta de valor es la transferencia de know-how a nuestros clientes, mediante
+                            Consultoría y Formación. </p>
+
                     </a>
                 </div>
-              </div>
-              <div class="col align-self-center">
-                <div class="cursos">
-                    <a href="html/cursos.html">
-                        <h3>4 Niveles de Excel</h3>
-                        <img src="imagenes/cowork.jpg" alt="Cursos Personalizados">
-                        <p>Sientase a gusto en alguno de los 4 niveles de Excel que ofrecemos. Siga creciendo
-                            profesionalmente en la herramienta más utilizada </p>
-                    </a>
-                </div>
-              </div>
-             
             </div>
-          </div>
+        </section>
 
-           
-         
-            <div class="nosotrosIndex">
-                <a href="html/nosotros.html">
-                    <h3>Nosotros</h3>
-                    <img src="imagenes/Nosotros.jpg" alt="Nosotros">
-                    <p>Somos consultores especializados en Microsoft Excel </p>
-                    <p>Nuestra propuesta de valor es la transferencia de know-how a nuestros clientes, mediante
-                        Consultoría y Formación. </p>
+        <!-- LOGO DE WHATSAPP MOVIL -->
+        <section class="logowpp">
 
+            <div>
+                <a href="https://wa.me/5491161868796">
+                    <img src="imagenes/whatsapp-g1cfc6d195_1280.png" alt="Whatsapp">
                 </a>
             </div>
-        </div>
-    </section>
-
-<!-- LOGO DE WHATSAPP MOVIL -->
-    <section class="logowpp">
-
-        <div>
-            <a href="https://wa.me/5491161868796">
-                <img src="imagenes/whatsapp-g1cfc6d195_1280.png" alt="Whatsapp">
-            </a>
-        </div>
-    </section>
-
+        </section>
+    </main>
     <!-- FOOTER -->
     <footer>
         <div>
-            <a href="https://www.facebook.com/" target="_blank"> <img src="imagenes/Facebook.png" alt=""></a>
-            <a href="https://www.instagram.com/" target="_blank"> <img src="imagenes/Instagram.png" alt=""></a>
-            <a href="https://www.linkedin.com/" target="_blank"><img src="imagenes/Linkedin.png" alt=""></a>
-            <a href="https://wa.me/5491161868796" target="_blank"><img src="imagenes/Whatsapp.png" alt=""></a>
+            <a href="https://www.facebook.com/" target="_blank"> <img src="imagenes/Facebook.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com/" target="_blank"> <img src="imagenes/Instagram.png" alt="Instagram"></a>
+            <a href="https://www.linkedin.com/" target="_blank"><img src="imagenes/Linkedin.png" alt="Linkedin"></a>
+            <a href="https://wa.me/5491161868796" target="_blank"><img src="imagenes/Whatsapp.png" alt="Whatsapp"></a>
             <p>Design by Ludmila Venturino</p>
         </div>
 
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-  AOS.init();
-</script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
-
