@@ -279,18 +279,19 @@ section a {
   color: #2F4550;
   margin: 15px;
   padding: 30px;
-  font-size: 40px;
+  font-size: 20px;
 }
 
 /* MUEVO ELO LOGO DE WHATSAPP */
 .logowpp {
+  z-index: 90;
   display: flex;
   position: fixed;
   bottom: 20px;
   right: 20px;
 }
 .logowpp img {
-  width: 50px;
+  width: 70px;
 }
 
 /* FOOTER */
