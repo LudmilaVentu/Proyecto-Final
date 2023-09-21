@@ -1,9 +1,9 @@
 @import "../utilities/variables";
-.seccion_empresas 
-{
-    border-bottom: #333 solid 2px;
 
-    h1{
+.seccion_empresas {
+  border-bottom: #333 solid 2px;
+
+  h1 {
     align-items: center;
     margin: 10px;
     padding: 30px;
@@ -12,39 +12,41 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-  
-    h2 {
+
+  p {
     font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
     margin: 30px;
-  
+
   }
-  
- h3{
-  align-items: center;
-  padding: 10px;
-  
+
+  h2 {
+    align-items: center;
+    padding: 10px;
+
   }
 }
-  
- .confiaron h5{
+
+.confiaron h5 {
   justify-content: center;
   display: flex;
   padding: 10px;
   font-size: 35px;
-  }
-  
-  .card-group{
-    display: flex;
-    height: 190px;
-    width: 300px;
-   h5{
-    
-        font-size: 15px;
-      }
-      
 }
-  
-  .card{
-    justify-content: space-around;
+
+.card-group {
+  display: flex;
+  height: 190px;
+  width: 300px;
+
+  h5 {
+
+    font-size: 15px;
   }
-  
+
+}
+
+.card {
+  justify-content: space-around;
+}

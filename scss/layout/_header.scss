@@ -1,5 +1,6 @@
 @import "../utilities/variables";
 header {
+    z-index: 100;
     background-color: $backgroundcolor;
     padding: 1px;
     display: flex;

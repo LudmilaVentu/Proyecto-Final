@@ -1,5 +1,6 @@
 @charset "UTF-8";
 header {
+  z-index: 100;
   background-color: #CBE1DB;
   padding: 1px;
   display: flex;
@@ -213,11 +214,13 @@ section a {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.seccion_empresas h2 {
+.seccion_empresas p {
   font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
   margin: 30px;
 }
-.seccion_empresas h3 {
+.seccion_empresas h2 {
   align-items: center;
   padding: 10px;
 }
